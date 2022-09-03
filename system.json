@@ -1,0 +1,29 @@
+{
+    "id": "sandbox",
+    "title": "Sandbox System Builder",
+    "description": "Custom system builder to build character sheets and rulesets for any game.",
+    "version": "0.13.4",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "9",
+        "maximum": "10"
+      },
+    "templateVersion": 1,
+    "authors": [{
+        "name": "Seregras",
+        "url": "https://gitlab.com/rolnl/"
+    }
+    ],
+    "esmodules": ["module/sandbox.js"],
+    "styles": ["styles/sandbox.css"],
+    "packs": [],
+    "socket":true,
+    "languages": [],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "power",
+    "url": "https://gitlab.com/rolnl/sandbox-system-builder/",
+    "manifest": "https://gitlab.com/rolnl/sandbox-system-builder/raw/dev_0.13.4/system.json",
+    "download": "https://gitlab.com/rolnl/sandbox-system-builder/-/archive/dev_0.13.4/sandbox-master.zip"
+}
